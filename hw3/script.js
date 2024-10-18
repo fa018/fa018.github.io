@@ -2,7 +2,7 @@
 let canvas = document.getElementById("myCanvas");
 let ctx = canvas.getContext("2d");
 let x = 0, y = 0, dx = 5, dy = 5, r = 30, color = "red";
-let x2 = canvas.width, y2 = 0, dx2 = 5, dy2 = 5, r2 = 30, color2 = "yellow";
+let x2 = canvas.width, y2 = 0, dx2 = 5, dy2 = 5, r2 = 30, color2 = "blue";
 
 // 畫圓形
 function drawBall(x, y, r, color)
